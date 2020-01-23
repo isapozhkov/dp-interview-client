@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <h1>Test</h1>
+    <Searcher />
   </div>
 </template>
 
 <script>
+import Searcher from "./components/Searcher";
 export default {
   name: "app",
-  components: {}
+  components: {
+    Searcher
+  }
 };
 </script>
 
