@@ -1,13 +1,17 @@
 {
   "name": "dp-interview-client",
   "version": "0.1.0",
-  "private": true,
+  "description": "DriverPack interview test: UI",
+  "repository": "https://github.com/isapozhkov/dp-interview-client.git",
+  "author": "Sapozhkov Ivan",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.4.4",
     "vue": "^2.6.10"
   },
